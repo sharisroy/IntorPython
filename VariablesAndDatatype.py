@@ -1,7 +1,13 @@
 a = 10
 print(a)
 print(type(a))
+
+# Print 2 digit after point
+print("-------------------Print 2 digit after point")
+d = 10.12345
+print(f"Full value of d {d}\n2 digits after pont is {d:.2f}")
                                     # List
+print("--------------------List")
 value = [1,2,3,"Haris", "Roy", 5]
 print(value)
 print(value[1])
