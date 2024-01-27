@@ -52,6 +52,15 @@ while n > 1:
         print(n, end=' ')
     n = n - 1
 
+test = "test variable"
 
+print("-------------in keyword in if/else")
 
-test = "test variabl;e"
+userInput = input("Please enter y for accept others for reject: ")
+
+if userInput in ("y", "Y"):
+    print("You accept the offer")
+else:
+    print("You reject the offer")
+
+print(abs(-1) in [1, 2, 3])  ## eturns the absolute value of -1, which is 1.

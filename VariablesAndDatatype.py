@@ -44,3 +44,19 @@ d["age"] = 30
 print(d)
 print(d["firstName"])
 print(d["age"])
+
+
+# SET
+print("-----------------------------Set")
+friends = {"Rahim", "Karim", "Mamun"}
+abroad = {"Rahim", "Mamun"}
+local_friend = friends.difference(abroad)
+print(local_friend)
+common = friends.intersection(abroad)
+print(common)
+
+set1 = {14, 5, 9, 31, 12, 77, 67, 8}
+set2 = {9, 77, 5, 12}  # Modified set2
+
+result = set1.intersection(set2)
+print(result)
