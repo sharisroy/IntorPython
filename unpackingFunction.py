@@ -26,6 +26,8 @@ def detail(**kewargs):
     print(kewargs)
 
 
+# dictionary
+
 details = {"name": "Haris", "age": 30}
 named(**details)
 detail(**details)
